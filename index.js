@@ -1,11 +1,10 @@
-//Clase do Herói
 class Heroi{
     constructor(nome,idade,tipo){
         this.nome = nome
         this.idade = idade
         this.tipo = tipo
     }
-    // Método para cada clase realizar o Ataque
+    
     atacar(){
         let ataque = ""
         if (this.tipo === "mago"){
@@ -27,5 +26,5 @@ class Heroi{
 let personagem = new Heroi("Isaque",17,"mago")
 personagem.atacar()
 
-let novoPersonagem = new Heroi("Felipe", 25, "guerreiro")
+let novoPersonagem = new Heroi("Janaina", 23, "guerreiro")
 novoPersonagem.atacar()
