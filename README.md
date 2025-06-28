@@ -23,4 +23,5 @@ O objetivo era criar uma class generica de herói e criar um metodo chamado atac
 
 ## 🔁 Exemplo de saída (node.js)
 "o {tipo} atacou usando {ataque}"
+
 "o mago atacou usando magia"
